@@ -67,7 +67,7 @@ namespace Academia_Super_Eroilor
                     int count = 0;
                     while(count ==  0) count = rnd.Next(10);
                     grades[i] = new int[count+1];
-                    Console.WriteLine("{0}: ", i.ToString());
+                    //Console.WriteLine("{0}: ", i.ToString());
 
                     for (int j = 0; j <= count; j++)
                     {
@@ -79,9 +79,9 @@ namespace Academia_Super_Eroilor
                             while (grades[i][j] < 5)
                                 grades[i][j] = rnd.Next(11);
                         }
-                        Console.WriteLine(grades[i][j]);
+                        //Console.WriteLine(grades[i][j]);
                     }
-                    Console.WriteLine("\n");
+                    //Console.WriteLine("\n");
                 }
                 return grades;
             }
